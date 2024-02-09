@@ -1,3 +1,8 @@
+bookdown::html_document2:
+  toc: true
+  toc_float: true
+bookdown::html_book:
+  toc: true
 bookdown::gitbook:
   css: style.css
   config:
@@ -15,4 +20,5 @@ bookdown::pdf_book:
   citation_package: natbib
   keep_tex: yes
 bookdown::epub_book: default
-bookdown::bs4_book: default
+bookdown::bs4_book:
+  split_by: "none"
